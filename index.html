@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Valle Sánchez | Tiempo de Invertir</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            100: '#FDF8E2',
+                            300: '#F3DB83',
+                            400: '#E5A638',
+                            500: '#D4AF37',
+                            600: '#B88E28',
+                            700: '#8C6819',
+                        },
+                        dark: {
+                            900: '#0B0F17',
+                            800: '#111827',
+                            700: '#1E293B',
+                            600: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF0B3 0%, #E5A638 50%, #B88E28 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border-glow {
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-dark-900">
+
+    <!-- Top Info Bar -->
+    <div class="bg-gold-500 text-dark-900 text-xs font-bold py-2 px-4 text-center">
+        ⚡ OPORTUNIDAD EN PREVENTA — ¡Asegura tu local comercial desde USD 2,000 de Inicial!
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="sticky top-0 z-50 bg-dark-800/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-dark-900 shadow-lg shadow-gold-500/20">
+                        <i class="fa-solid fa-store text-2xl"></i>
+                    </div>
+                    <div>
+                        <div class="text-lg font-black tracking-wider text-white">MERCADO <span class="gold-gradient-text">VALLE SÁNCHEZ</span></div>
+                        <div class="text-xs text-gold-400 font-semibold uppercase tracking-widest">Tiempo de Invertir</div>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                    <a href="#vision" class="hover:text-gold-400 transition">Visión</a>
+                    <a href="#sectores" class="hover:text-gold-400 transition">Sectores</a>
+                    <a href="#entregables" class="hover:text-gold-400 transition">Especificaciones</a>
+                    <a href="#calculadora" class="hover:text-gold-400 transition">Calculadora</a>
+                    <a href="#contacto" class="bg-gold-500 hover:bg-gold-400 text-dark-900 font-bold px-5 py-2.5 rounded-lg transition shadow-md">Agendar Cita</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 overflow-hidden bg-gradient-to-b from-dark-800 to-dark-900 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
+                        400 Locales Comerciales de 9 m² (3 x 3 m)
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
+                        Invierte hoy. <br>
+                        <span class="gold-gradient-text">Construye patrimonio</span> mañana.
+                    </h1>
+                    <p class="text-lg text-slate-300 leading-relaxed">
+                        No se trata únicamente de adquirir un local. Se trata de adueñarse de un activo inmobiliario que genera flujo de caja constante y se valoriza día a día en la zona comercial de mayor expansión de Valle Sánchez.
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4">
+                        <div class="bg-dark-700/60 p-4 rounded-xl border border-slate-800">
+                            <div class="text-gold-400 font-black text-2xl">USD 17,500</div>
+                            <div class="text-xs text-slate-400 uppercase font-medium">Precio Local Interno</div>
+                        </div>
+                        <div class="bg-dark-700/60 p-4 rounded-xl border border-slate-800">
+                            <div class="text-gold-400 font-black text-2xl">USD 2,000</div>
+                            <div class="text-xs text-slate-400 uppercase font-medium">Cuota Inicial</div>
+                        </div>
+                        <div class="bg-dark-700/60 p-4 rounded-xl border border-slate-800 col-span-2 sm:col-span-1">
+                            <div class="text-gold-400 font-black text-2xl">60 Meses</div>
+                            <div class="text-xs text-slate-400 uppercase font-medium">Crédito Directo (6%)</div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                        <a href="https://wa.me/59174675314?text=Hola,%20deseo%20más%20información%20sobre%20los%20locales%20en%20Mercado%20Valle%20Sánchez" target="_blank" class="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-dark-900 font-extrabold px-8 py-4 rounded-xl text-center shadow-lg shadow-gold-500/20 transition flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> Contactar Project Manager
+                        </a>
+                        <a href="#calculadora" class="bg-dark-700 hover:bg-dark-600 text-white font-semibold px-8 py-4 rounded-xl text-center border border-slate-700 transition">
+                            Simular Financiamiento
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 relative">
+                    <div class="relative rounded-2xl overflow-hidden border-2 border-gold-500/30 gold-border-glow shadow-2xl">
+                        <img src="002 RENDER EXTERIORES DRON 3D.jpeg" alt="Mercado Valle Sanchez Render Exterior" class="w-full h-[420px] object-cover">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-dark-900 via-dark-900/80 to-transparent p-6">
+                            <span class="bg-gold-500 text-dark-900 text-xs font-bold px-2.5 py-1 rounded">Arquitectura Moderna</span>
+                            <h3 class="text-xl font-bold text-white mt-2">Cubiertas de Tinglado Metálico</h3>
+                            <p class="text-xs text-slate-300">Diseño abovedado que optimiza ventilación e iluminación natural.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Invest Grid -->
+    <section id="vision" class="py-20 bg-dark-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400">¿Por qué Invertir?</h2>
+                <p class="text-3xl font-black text-white mt-2">Las 3 condiciones de una inversión inteligente</p>
+                <p class="text-slate-400 mt-3">Mercado Valle Sánchez combina respaldo inmobiliario real con flujo de ingresos proyectados.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-dark-800 p-8 rounded-2xl border border-slate-800 hover:border-gold-500/50 transition">
+                    <div class="w-14 h-14 bg-gold-500/10 text-gold-400 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">1. Crecen con el tiempo</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        El crecimiento urbano acelerado de Valle Sánchez eleva el valor por metro cuadrado de cada propiedad, garantizando una alta plusvalía acumulada.
+                    </p>
+                </div>
+                <div class="bg-dark-800 p-8 rounded-2xl border border-slate-800 hover:border-gold-500/50 transition">
+                    <div class="w-14 h-14 bg-gold-500/10 text-gold-400 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">2. Generan rentabilidad</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Flujo de caja inmediato: puedes operar tu propio negocio comercial o alquilar la unidad para percibir ingresos pasivos mensuales recurrentes.
+                    </p>
+                </div>
+                <div class="bg-dark-800 p-8 rounded-2xl border border-slate-800 hover:border-gold-500/50 transition">
+                    <div class="w-14 h-14 bg-gold-500/10 text-gold-400 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">3. Son activos reales</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Propiedades tangibles con minuta individual y aprobación final del proyecto, heredables y protegidas contra la devaluación monetaria.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commercial Sectors -->
+    <section id="sectores" class="py-20 bg-dark-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400">Distribución Comercial</h2>
+                <p class="text-3xl font-black text-white mt-2">Zonificación diseñada para maximizar ventas</p>
+                <p class="text-slate-400 mt-2">Los 400 locales están organizados estratégicamente por rubros para canalizar clientes de manera uniforme en todos los pabellones.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-4">
+                    <div class="bg-dark-800 p-5 rounded-xl border border-slate-800 flex items-start gap-4">
+                        <div class="bg-red-500/10 text-red-400 p-3 rounded-lg text-xl font-bold"><i class="fa-solid fa-drumstick-bite"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Sector Carnes (Frente Principal)</h4>
+                            <p class="text-slate-400 text-sm">Máxima visibilidad comercial y mayor densidad de tráfico desde el pórtico de ingreso.</p>
+                        </div>
+                    </div>
+                    <div class="bg-dark-800 p-5 rounded-xl border border-slate-800 flex items-start gap-4">
+                        <div class="bg-emerald-500/10 text-emerald-400 p-3 rounded-lg text-xl font-bold"><i class="fa-solid fa-basket-shopping"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Sector Abarrotes (Zona Central)</h4>
+                            <p class="text-slate-400 text-sm">El núcleo de abastecimiento diario para toda la comunidad de Valle Sánchez.</p>
+                        </div>
+                    </div>
+                    <div class="bg-dark-800 p-5 rounded-xl border border-slate-800 flex items-start gap-4">
+                        <div class="bg-amber-500/10 text-amber-400 p-3 rounded-lg text-xl font-bold"><i class="fa-solid fa-utensils"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Sector Snacks / Gastronomía (Parte Posterior)</h4>
+                            <p class="text-slate-400 text-sm">Zona gastronómica rápida con patio de espera, bancos de descanso y sanitarios sanitizados.</p>
+                        </div>
+                    </div>
+                    <div class="bg-dark-800 p-5 rounded-xl border border-slate-800 flex items-start gap-4">
+                        <div class="bg-blue-500/10 text-blue-400 p-3 rounded-lg text-xl font-bold"><i class="fa-solid fa-wrench"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Sector Ferreterías (Lateral Izquierdo)</h4>
+                            <p class="text-slate-400 text-sm">Especializado en insumos técnicos, herramientas y materiales de construcción.</p>
+                        </div>
+                    </div>
+                    <div class="bg-dark-800 p-5 rounded-xl border border-slate-800 flex items-start gap-4">
+                        <div class="bg-purple-500/10 text-purple-400 p-3 rounded-lg text-xl font-bold"><i class="fa-solid fa-book-open"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Librerías, Florerías & Varios (Lateral Derecho)</h4>
+                            <p class="text-slate-400 text-sm">Diversidad de tiendas minoristas, artículos escolares y servicios generales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="rounded-2xl overflow-hidden border border-slate-700 shadow-xl">
+                        <img src="image_c1e600.jpg" alt="Interior Mercado Valle Sanchez" class="w-full h-64 object-cover">
+                        <div class="bg-dark-800 p-4">
+                            <span class="text-xs font-semibold text-gold-400">Render de Pasillos Internos</span>
+                            <p class="text-slate-300 text-sm">Pisos de alto tráfico con pasillos anchos y marquesinas unificadas para cada local.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden border border-slate-700 shadow-xl">
+                        <img src="003 EXTERIORES PATIO DE ESPERA RENDER.jpeg" alt="Patio de Espera y Sanitarios" class="w-full h-64 object-cover">
+                        <div class="bg-dark-800 p-4">
+                            <span class="text-xs font-semibold text-gold-400">Patio de Espera & Sanitarios</span>
+                            <p class="text-slate-300 text-sm">Áreas sociales cómodas y limpias para los compradores y sus familias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deliverables Checklist -->
+    <section id="entregables" class="py-20 bg-dark-800 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400">Especificaciones</h2>
+                <p class="text-3xl font-black text-white mt-2">¿Qué recibe cada propietario?</p>
+                <p class="text-slate-400 mt-2">Infraestructura garantizada por el proyecto + flexibilidad total para acondicionar tu negocio.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Entrega el Proyecto -->
+                <div class="bg-dark-700/80 p-8 rounded-2xl border-2 border-gold-500/30">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <h3 class="text-2xl font-black text-white">El Proyecto Entregará:</h3>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-circle-check text-gold-400"></i> Tinglado metálico completo sobre toda la nave
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-circle-check text-gold-400"></i> Piso peatonal y de alto tráfico instalado
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-circle-check text-gold-400"></i> Barda perimetral de alta seguridad
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-circle-check text-gold-400"></i> Pórtico de ingreso y aleros de protección
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-circle-check text-gold-400"></i> Minuta individual firmada
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-circle-check text-gold-400"></i> Aprobación final técnica del proyecto
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Personaliza el Propietario -->
+                <div class="bg-dark-700/80 p-8 rounded-2xl border border-slate-700">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-full bg-blue-500/20 text-blue-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                        <h3 class="text-2xl font-black text-white">El Propietario Personaliza:</h3>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3 text-slate-300">
+                            <i class="fa-solid fa-screwdriver-wrench text-slate-400"></i> Bardas internas de división (a su gusto)
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-300">
+                            <i class="fa-solid fa-screwdriver-wrench text-slate-400"></i> Persianas / Cortinas metálicas enrollables
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-300">
+                            <i class="fa-solid fa-screwdriver-wrench text-slate-400"></i> Mezanine interior (opcional para depósito o altillo)
+                        </li>
+                    </ul>
+                    <div class="mt-8 p-4 rounded-xl bg-dark-900/60 border border-slate-800 text-xs text-slate-400">
+                        💡 <strong class="text-slate-200">Ventaja Clave:</strong> Al dejar los acabados internos a elección del propietario, cada comerciante invierte exactamente en las adecuaciones específicas que requiere su rubro.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financing & Yield Calculator -->
+    <section id="calculadora" class="py-20 bg-dark-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400">Simulador Financiero</h2>
+                <p class="text-3xl font-black text-white mt-2">Calcula tus Cuotas en Crédito Directo</p>
+                <p class="text-slate-400 mt-2">Financiamiento propio a 60 meses con interés del 6% anual. Sin trámites bancarios complejos.</p>
+            </div>
+
+            <div class="bg-dark-800 rounded-3xl p-6 sm:p-10 border border-slate-700 shadow-2xl max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Controls -->
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-slate-400 mb-2">Tipo de Local Commercial</label>
+                            <select id="calcType" onchange="calculateLoan()" class="w-full bg-dark-900 border border-slate-700 text-white rounded-xl p-3.5 focus:border-gold-500 focus:outline-none">
+                                <option value="17500">Local Interno — USD 17,500</option>
+                                <option value="21500">Local Esquina / Frente Principal — USD 21,500</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-bold uppercase mb-2">
+                                <span class="text-slate-400">Cuota Inicial (USD)</span>
+                                <span id="initialVal" class="text-gold-400">$2,000</span>
+                            </div>
+                            <input type="range" id="calcInitial" min="2000" max="10000" step="500" value="2000" oninput="calculateLoan()" class="w-full accent-gold-500 cursor-pointer">
+                            <div class="flex justify-between text-xs text-slate-500 mt-1">
+                                <span>Mínimo: $2,000</span>
+                                <span>$10,000</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-bold uppercase mb-2">
+                                <span class="text-slate-400">Plazo de Financiamiento</span>
+                                <span id="monthsVal" class="text-gold-400">60 Meses</span>
+                            </div>
+                            <input type="range" id="calcMonths" min="12" max="60" step="12" value="60" oninput="calculateLoan()" class="w-full accent-gold-500 cursor-pointer">
+                            <div class="flex justify-between text-xs text-slate-500 mt-1">
+                                <span>12 meses</span>
+                                <span>60 meses (5 años)</span>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-dark-900 border border-slate-800 text-xs text-slate-400 space-y-1">
+                            <div class="flex justify-between">
+                                <span>Tasa de Interés:</span>
+                                <strong class="text-slate-200">6% Anual</strong>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Tipo de Cambio Ref.:</span>
+                                <strong class="text-slate-200">1 USD = 7.00 BOB</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Output Card -->
+                    <div class="bg-gradient-to-br from-dark-700 to-dark-900 p-8 rounded-2xl border border-gold-500/40 flex flex-col justify-between">
+                        <div>
+                            <span class="text-xs font-bold uppercase text-gold-400 tracking-wider">Cuota Mensual Estimada</span>
+                            <div class="mt-2 text-4xl sm:text-5xl font-black text-white" id="monthlyUSD">$298</div>
+                            <div class="text-lg font-bold text-gold-400 mt-1" id="monthlyBOB">Aprox. Bs. 2,086 / mes</div>
+
+                            <div class="border-t border-slate-700/80 my-6 pt-6 space-y-3 text-sm">
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Precio del Local:</span>
+                                    <strong id="summaryPrice" class="text-white">$17,500 USD</strong>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Cuota Inicial:</span>
+                                    <strong id="summaryInitial" class="text-white">$2,000 USD</strong>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Saldo Financiado:</span>
+                                    <strong id="summaryBalance" class="text-gold-400">$15,500 USD</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a id="calcWpLink" href="#" target="_blank" class="w-full bg-gold-500 hover:bg-gold-400 text-dark-900 font-bold py-3.5 rounded-xl text-center shadow-lg transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp"></i> Reservar con este Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Masterplan & Floor Image -->
+    <section class="py-20 bg-dark-800 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400">Plano General</h2>
+                <p class="text-3xl font-black text-white mt-2">Distribución de los 9 Pabellones</p>
+                <p class="text-slate-400 mt-2">Revisa la disposición de bloques del Mercado Valle Sánchez.</p>
+            </div>
+            <div class="rounded-3xl overflow-hidden border-2 border-gold-500/30 shadow-2xl bg-dark-900 p-2 max-w-5xl mx-auto">
+                <img src="image_c1e621.jpg" alt="Plano Maestro Mercado Valle Sanchez" class="w-full rounded-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action & Contact Footer -->
+    <footer id="contacto" class="py-20 bg-dark-900 border-t border-slate-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-gold-600 via-gold-500 to-gold-400 text-dark-900 rounded-3xl p-8 sm:p-14 text-center max-w-4xl mx-auto shadow-2xl space-y-6">
+                <h2 class="text-3xl sm:text-4xl font-black">¿Listo para asegurar tu patrimonio?</h2>
+                <p class="text-dark-900/80 font-medium max-w-2xl mx-auto text-base sm:text-lg">
+                    Cada local vendido reduce la disponibilidad y nos acerca a la siguiente fase de precios. Agenda tu asesoría personalizada hoy mismo.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="https://wa.me/59174675314?text=Hola%20Project%20Manager,%20deseo%20agendar%20una%20reunión%20por%20Mercado%20Valle%20Sánchez" target="_blank" class="bg-dark-900 hover:bg-dark-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-gold-400 text-xl"></i> Project Manager (74675314)
+                    </a>
+                    <a href="https://wa.me/59176732300?text=Hola%20Asesor%20Comercial,%20deseo%20información%20de%20disponibilidad%20en%20Mercado%20Valle%20Sánchez" target="_blank" class="bg-dark-900 hover:bg-dark-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-gold-400 text-xl"></i> Asesor Comercial (76732300)
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center text-xs text-slate-500 border-t border-slate-800 pt-8">
+                <p>© 2026 Mercado Valle Sánchez — Tiempo de Invertir. Todos los derechos reservados.</p>
+                <p class="mt-1">Las imágenes, planos y renders visuales son representaciones ilustrativas de referencia técnica del proyecto.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loan Calculator Script -->
+    <script>
+        function calculateLoan() {
+            const price = parseFloat(document.getElementById('calcType').value);
+            const initial = parseFloat(document.getElementById('calcInitial').value);
+            const months = parseInt(document.getElementById('calcMonths').value);
+
+            document.getElementById('initialVal').innerText = '$' + initial.toLocaleString('en-US');
+            document.getElementById('monthsVal').innerText = months + ' Meses';
+
+            const balance = Math.max(0, price - initial);
+            const annualRate = 0.06;
+            const monthlyRate = annualRate / 12;
+
+            let monthlyPayment = 0;
+            if (balance > 0) {
+                monthlyPayment = (balance * monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
+            }
+
+            const monthlyBOB = monthlyPayment * 7.00;
+
+            document.getElementById('monthlyUSD').innerText = '$' + Math.round(monthlyPayment) + ' / mes';
+            document.getElementById('monthlyBOB').innerText = 'Aprox. Bs. ' + Math.round(monthlyBOB).toLocaleString('es-BO') + ' / mes';
+
+            document.getElementById('summaryPrice').innerText = '$' + price.toLocaleString('en-US') + ' USD';
+            document.getElementById('summaryInitial').innerText = '$' + initial.toLocaleString('en-US') + ' USD';
+            document.getElementById('summaryBalance').innerText = '$' + balance.toLocaleString('en-US') + ' USD';
+
+            const message = encodeURIComponent(`Hola, deseo cotizar un local de $${price.toLocaleString()} USD con inicial de $${initial.toLocaleString()} USD a ${months} meses (Cuota aprox: $${Math.round(monthlyPayment)} USD/mes).`);
+            document.getElementById('calcWpLink').href = `https://wa.me/59174675314?text=${message}`;
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', calculateLoan);
+    </script>
+</body>
+</html>
