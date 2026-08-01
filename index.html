@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
     <title>Mercado Valle Sánchez | Tiempo de Invertir</title>
+    <meta name="description" content="Invierte en Mercado Valle Sánchez. Locales comerciales de 9 m² en preventa desde USD 17,500 con financiamiento directo a 60 meses sin trámites bancarios.">
+    <meta name="keywords" content="Mercado Valle Sánchez, locales comerciales, venta de locales, inversión inmobiliaria, Santa Cruz Bolivia, crédito directo">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Mercado Valle Sánchez | Tiempo de Invertir">
+    <meta property="og:description" content="Locales comerciales en preventa con crédito directo a 60 meses. Tu inversión inmobiliaria segura.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="render_exteriores.jpeg">
+
+    <!-- Preconnect CDNs for Speed -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <script>
         tailwind.config = {
             theme: {
@@ -40,6 +57,22 @@
             box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
         }
     </style>
+
+    <!-- Structured Data JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateListing",
+      "name": "Mercado Valle Sánchez",
+      "description": "Locales comerciales en preventa con crédito directo a 60 meses.",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "17500",
+        "highPrice": "21500"
+      }
+    }
+    </script>
 </head>
 <body class="bg-dark-900 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-dark-900">
 
@@ -94,8 +127,8 @@
                             <div class="text-xs text-slate-400 uppercase font-medium">Precio Local Interno</div>
                         </div>
                         <div class="bg-dark-700/60 p-4 rounded-xl border border-slate-800">
-                            <div class="text-gold-400 font-black text-2xl">USD 2,000</div>
-                            <div class="text-xs text-slate-400 uppercase font-medium">Cuota Inicial</div>
+                            <div class="text-gold-400 font-black text-2xl">USD 500</div>
+                            <div class="text-xs text-slate-400 uppercase font-medium">Cuota Inicial Sugerida</div>
                         </div>
                         <div class="bg-dark-700/60 p-4 rounded-xl border border-slate-800 col-span-2 sm:col-span-1">
                             <div class="text-gold-400 font-black text-2xl">60 Meses</div>
@@ -103,7 +136,7 @@
                         </div>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-4 pt-2">
-                        <a href="https://wa.me/59174675314?text=Hola,%20deseo%20más%20información%20sobre%20los%20locales%20en%20Mercado%20Valle%20Sánchez" target="_blank" class="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-dark-900 font-extrabold px-8 py-4 rounded-xl text-center shadow-lg shadow-gold-500/20 transition flex items-center justify-center gap-3">
+                        <a href="https://wa.me/59174675314?text=Hola,%20deseo%20más%20información%20sobre%20los%20locales%20en%20Mercado%20Valle%20Sánchez" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-dark-900 font-extrabold px-8 py-4 rounded-xl text-center shadow-lg shadow-gold-500/20 transition flex items-center justify-center gap-3">
                             <i class="fa-brands fa-whatsapp text-xl"></i> Contactar Project Manager
                         </a>
                         <a href="#calculadora" class="bg-dark-700 hover:bg-dark-600 text-white font-semibold px-8 py-4 rounded-xl text-center border border-slate-700 transition">
@@ -113,7 +146,7 @@
                 </div>
                 <div class="lg:col-span-5 relative">
                     <div class="relative rounded-2xl overflow-hidden border-2 border-gold-500/30 gold-border-glow shadow-2xl">
-                        <img src="render_exteriores.jpeg" alt="Mercado Valle Sanchez Render Exterior" class="w-full h-[420px] object-cover">
+                        <img src="render_exteriores.jpeg" alt="Mercado Valle Sanchez Render Exterior" fetchpriority="high" decoding="async" class="w-full h-[420px] object-cover">
                         <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-dark-900 via-dark-900/80 to-transparent p-6">
                             <span class="bg-gold-500 text-dark-900 text-xs font-bold px-2.5 py-1 rounded">Arquitectura Moderna</span>
                             <h3 class="text-xl font-bold text-white mt-2">Cubiertas de Tinglado Metálico</h3>
@@ -215,14 +248,14 @@
 
                 <div class="space-y-6">
                     <div class="rounded-2xl overflow-hidden border border-slate-700 shadow-xl">
-                        <img src="image_c1e600.jpg" alt="Interior Mercado Valle Sanchez" class="w-full h-64 object-cover">
+                        <img src="image_c1e600.jpeg" alt="Interior Mercado Valle Sanchez" loading="lazy" decoding="async" class="w-full h-64 object-cover">
                         <div class="bg-dark-800 p-4">
                             <span class="text-xs font-semibold text-gold-400">Render de Pasillos Internos</span>
                             <p class="text-slate-300 text-sm">Pisos de alto tráfico con pasillos anchos y marquesinas unificadas para cada local.</p>
                         </div>
                     </div>
                     <div class="rounded-2xl overflow-hidden border border-slate-700 shadow-xl">
-                        <img src="exteriores_patio_espera.jpeg" alt="Patio de Espera y Sanitarios" class="w-full h-64 object-cover">
+                        <img src="exteriores_patio_espera.jpeg" alt="Patio de Espera y Sanitarios" loading="lazy" decoding="async" class="w-full h-64 object-cover">
                         <div class="bg-dark-800 p-4">
                             <span class="text-xs font-semibold text-gold-400">Patio de Espera & Sanitarios</span>
                             <p class="text-slate-300 text-sm">Áreas sociales cómodas y limpias para los compradores y sus familias.</p>
@@ -314,7 +347,7 @@
                     <!-- Controls -->
                     <div class="space-y-6">
                         <div>
-                            <label class="block text-xs font-bold uppercase text-slate-400 mb-2">Tipo de Local Commercial</label>
+                            <label class="block text-xs font-bold uppercase text-slate-400 mb-2">Tipo de Local Comercial</label>
                             <select id="calcType" onchange="calculateLoan()" class="w-full bg-dark-900 border border-slate-700 text-white rounded-xl p-3.5 focus:border-gold-500 focus:outline-none">
                                 <option value="17500">Local Interno — USD 17,500</option>
                                 <option value="21500">Local Esquina / Frente Principal — USD 21,500</option>
@@ -324,12 +357,12 @@
                         <div>
                             <div class="flex justify-between text-xs font-bold uppercase mb-2">
                                 <span class="text-slate-400">Cuota Inicial (USD)</span>
-                                <span id="initialVal" class="text-gold-400">$2,000</span>
+                                <span id="initialVal" class="text-gold-400">USD 2,000</span>
                             </div>
                             <input type="range" id="calcInitial" min="500" max="10000" step="500" value="2000" oninput="calculateLoan()" class="w-full accent-gold-500 cursor-pointer">
                             <div class="flex justify-between text-xs text-slate-500 mt-1">
-                                <span>Mínimo: $500</span>
-                                <span>$10,000</span>
+                                <span>Mínimo: USD 500</span>
+                                <span>USD 10,000</span>
                             </div>
                         </div>
 
@@ -361,26 +394,26 @@
                     <div class="bg-gradient-to-br from-dark-700 to-dark-900 p-8 rounded-2xl border border-gold-500/40 flex flex-col justify-between">
                         <div>
                             <span class="text-xs font-bold uppercase text-gold-400 tracking-wider">Cuota Mensual Estimada</span>
-                            <div class="mt-2 text-4xl sm:text-5xl font-black text-white" id="monthlyUSD">$298</div>
+                            <div class="mt-2 text-4xl sm:text-5xl font-black text-white" id="monthlyUSD">USD 298 / mes</div>
                             <div class="text-lg font-bold text-gold-400 mt-1" id="monthlyBOB">Aprox. Bs. 2,086 / mes</div>
 
                             <div class="border-t border-slate-700/80 my-6 pt-6 space-y-3 text-sm">
                                 <div class="flex justify-between text-slate-300">
                                     <span>Precio del Local:</span>
-                                    <strong id="summaryPrice" class="text-white">$17,500 USD</strong>
+                                    <strong id="summaryPrice" class="text-white">USD 17,500</strong>
                                 </div>
                                 <div class="flex justify-between text-slate-300">
                                     <span>Cuota Inicial:</span>
-                                    <strong id="summaryInitial" class="text-white">$2,000 USD</strong>
+                                    <strong id="summaryInitial" class="text-white">USD 2,000</strong>
                                 </div>
                                 <div class="flex justify-between text-slate-300">
                                     <span>Saldo Financiado:</span>
-                                    <strong id="summaryBalance" class="text-gold-400">$15,500 USD</strong>
+                                    <strong id="summaryBalance" class="text-gold-400">USD 15,500</strong>
                                 </div>
                             </div>
                         </div>
 
-                        <a id="calcWpLink" href="#" target="_blank" class="w-full bg-gold-500 hover:bg-gold-400 text-dark-900 font-bold py-3.5 rounded-xl text-center shadow-lg transition flex items-center justify-center gap-2">
+                        <a id="calcWpLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full bg-gold-500 hover:bg-gold-400 text-dark-900 font-bold py-3.5 rounded-xl text-center shadow-lg transition flex items-center justify-center gap-2">
                             <i class="fa-brands fa-whatsapp"></i> Reservar con este Plan
                         </a>
                     </div>
@@ -398,7 +431,7 @@
                 <p class="text-slate-400 mt-2">Revisa la disposición de bloques del Mercado Valle Sánchez.</p>
             </div>
             <div class="rounded-3xl overflow-hidden border-2 border-gold-500/30 shadow-2xl bg-dark-900 p-2 max-w-5xl mx-auto">
-                <img src="distribucion_locales_comerciales.jepg" alt="Plano Maestro Mercado Valle Sanchez" class="w-full rounded-2xl">
+                <img src="distribucion_locales_comerciales.jpeg" alt="Plano Maestro Mercado Valle Sanchez" loading="lazy" decoding="async" class="w-full rounded-2xl">
             </div>
         </div>
     </section>
@@ -412,10 +445,10 @@
                     Cada local vendido reduce la disponibilidad y nos acerca a la siguiente fase de precios. Agenda tu asesoría personalizada hoy mismo.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                    <a href="https://wa.me/59174675314?text=Hola%20Project%20Manager,%20deseo%20agendar%20una%20reunión%20por%20Mercado%20Valle%20Sánchez" target="_blank" class="bg-dark-900 hover:bg-dark-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3">
+                    <a href="https://wa.me/59174675314?text=Hola%20Project%20Manager,%20deseo%20agendar%20una%20reunión%20por%20Mercado%20Valle%20Sánchez" target="_blank" rel="noopener noreferrer" class="bg-dark-900 hover:bg-dark-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3">
                         <i class="fa-brands fa-whatsapp text-gold-400 text-xl"></i> Project Manager (74675314)
                     </a>
-                    <a href="https://wa.me/59176732300?text=Hola%20Asesor%20Comercial,%20deseo%20información%20de%20disponibilidad%20en%20Mercado%20Valle%20Sánchez" target="_blank" class="bg-dark-900 hover:bg-dark-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3">
+                    <a href="https://wa.me/59176732300?text=Hola%20Asesor%20Comercial,%20deseo%20información%20de%20disponibilidad%20en%20Mercado%20Valle%20Sánchez" target="_blank" rel="noopener noreferrer" class="bg-dark-900 hover:bg-dark-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3">
                         <i class="fa-brands fa-whatsapp text-gold-400 text-xl"></i> Chief Revenue Officer (76732300)
                     </a>
                 </div>
@@ -432,10 +465,16 @@
     <script>
         function calculateLoan() {
             const price = parseFloat(document.getElementById('calcType').value);
-            const initial = parseFloat(document.getElementById('calcInitial').value);
+            let initial = parseFloat(document.getElementById('calcInitial').value);
+
+            // Regla de cuota inicial mínima en USD
+            if (isNaN(initial) || initial < 500) {
+                initial = 500;
+            }
+
             const months = parseInt(document.getElementById('calcMonths').value);
 
-            document.getElementById('initialVal').innerText = '$' + initial.toLocaleString('en-US');
+            document.getElementById('initialVal').innerText = 'USD ' + initial.toLocaleString('en-US');
             document.getElementById('monthsVal').innerText = months + ' Meses';
 
             const balance = Math.max(0, price - initial);
@@ -449,14 +488,14 @@
 
             const monthlyBOB = monthlyPayment * 7.00;
 
-            document.getElementById('monthlyUSD').innerText = '$' + Math.round(monthlyPayment) + ' / mes';
+            document.getElementById('monthlyUSD').innerText = 'USD ' + Math.round(monthlyPayment) + ' / mes';
             document.getElementById('monthlyBOB').innerText = 'Aprox. Bs. ' + Math.round(monthlyBOB).toLocaleString('es-BO') + ' / mes';
 
-            document.getElementById('summaryPrice').innerText = '$' + price.toLocaleString('en-US') + ' USD';
-            document.getElementById('summaryInitial').innerText = '$' + initial.toLocaleString('en-US') + ' USD';
-            document.getElementById('summaryBalance').innerText = '$' + balance.toLocaleString('en-US') + ' USD';
+            document.getElementById('summaryPrice').innerText = 'USD ' + price.toLocaleString('en-US');
+            document.getElementById('summaryInitial').innerText = 'USD ' + initial.toLocaleString('en-US');
+            document.getElementById('summaryBalance').innerText = 'USD ' + balance.toLocaleString('en-US');
 
-            const message = encodeURIComponent(`Hola, deseo cotizar un local de $${price.toLocaleString()} USD con inicial de $${initial.toLocaleString()} USD a ${months} meses (Cuota aprox: $${Math.round(monthlyPayment)} USD/mes).`);
+            const message = encodeURIComponent(`Hola, deseo cotizar un local de USD ${price.toLocaleString('en-US')} con inicial de USD ${initial.toLocaleString('en-US')} a ${months} meses (Cuota aprox: USD ${Math.round(monthlyPayment)}/mes).`);
             document.getElementById('calcWpLink').href = `https://wa.me/59174675314?text=${message}`;
         }
 
@@ -465,3 +504,5 @@
     </script>
 </body>
 </html>
+
+```
